@@ -1,0 +1,41 @@
+.groupe1{
+    background-color: darkgrey;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4%;
+    width: 20%;
+    border-radius: 15px;
+    transition: transform 0.3s;
+    
+}
+
+.photo1{
+    border: 4px solid darkred;
+    width: 7px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0%;
+    padding: 100px;
+    background-image: url(pdpgirafe.jpg) ;
+}
+
+h1{
+    font-family:cursive;
+    text-align: center;
+    color:darkred;
+    
+}
+p{
+    font-family: cursive;
+    text-align: center;
+}
+
+.groupe1:hover{
+    transform: scale(1.1);
+    background-color: gray;
+}
+
+body{
+    background-color: #e8eaed;
+}
