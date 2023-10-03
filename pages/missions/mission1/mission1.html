@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>MISSION 1</title>
+        <link rel="stylesheet" href="./styles/stylem1.css">
+    </head>
+    <body>
+        
+        <h1>Mission 1</h1>
+        <h2>QCM SIO 1</h2>
+        
+        <form id="qcmForm">
+
+        <fieldset>
+            
+            <legend>Question 1</legend>
+            <p>Qu'est-ce que signifie l'acronyme "CPU" en informatique ?</p>
+            <input type="radio" name="q1" value="a"> a) Central Processing Unit<br>
+            <input type="radio" name="q1" value="b"> b) Computer Programming Utility<br>
+            <input type="radio" name="q1" value="c"> c) Common Personal User<br>
+            <input type="radio" name="q1" value="d"> d) Centralized Peripheral Unit<br>    
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Question 2</legend>
+                <p>Quel dispositif d'entrée est généralement utilisé pour cliquer sur des icônes et sélectionner des éléments à l'écran ?</p>
+                <input type="radio" name="q2" value="a"> a) Clavier<br>
+                <input type="radio" name="q2" value="b">b) Souris<br>
+                <input type="radio" name="q2" value="c"> c) Moniteur<br>
+                <input type="radio" name="q2" value="d"> d) Imprimante<br>
+            
+        </fieldset>
+        
+        
+        <br>
+        <fieldset>
+            <legend>Question 3</legend>
+                <p>Quel langage de programmation est souvent utilisé pour créer des pages web interactives ?</p>
+                <input type="radio" name="q3" value="a"> a) HTML<br>
+                <input type="radio" name="q3" value="b"> b) JavaScript<br>
+                <input type="radio" name="q3" value="c"> c) Python<br>
+                <input type="radio" name="q3" value="d"> d) SQL<br>
+            
+        </fieldset>
+        
+        <br>
+        <fieldset>
+            <legend>Question 4</legend>
+                <p>Quel type de fichier est généralement utilisé pour stocker des données tabulaires, telles que les données d'une feuille de calcul ?</p>
+                <input type="radio" name="q4" value="a"> a) .PDF<br>
+                <input type="radio" name="q4" value="b"> b) .JPG<br>
+                <input type="radio" name="q4" value="c"> c) .CSV<br>
+                <input type="radio" name="q4" value="d"> d) .MP3<br>
+            
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Question 5</legend>
+               <p>Quel système d'exploitation est développé par Apple pour ses ordinateurs personnels ?</p>
+                <input type="radio" name="q5" value="a"> a) Windows<br>
+                <input type="radio" name="q5" value="b"> b) Linux<br>
+                <input type="radio" name="q5" value="c"> c) macOS<br>
+                <input type="radio" name="q5" value="d"> d) Android<br>
+            
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Question 6</legend>
+                <p>Quel périphérique de stockage est souvent utilisé pour sauvegarder des fichiers sur un ordinateur ?</p>
+                <input type="radio" name="q6" value="a"> a) Disque dur<br>
+                <input type="radio" name="q6" value="b"> b) Clavier<br>
+                <input type="radio" name="q6" value="c"> c) Écran tactile<br>
+                <input type="radio" name="q6" value="d"> d) Imprimante<br>
+            
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Question 7</legend>
+                <p>Quelle technologie sans fil permet aux appareils de communiquer entre eux à courte distance, par exemple pour le transfert de fichiers ?</p>
+                <input type="radio" name="q7" value="a"> a) Bluetooth<br>
+                <input type="radio" name="q7" value="b"> b) Wi-Fi<br>
+                <input type="radio" name="q7" value="c"> c) 4G<br>
+                <input type="radio" name="q7" value="d"> d) GPS<br>
+            
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Question 8</legend>
+                <p>Quel est le nom du navigateur web le plus populaire développé par Google ?</p>
+                <input type="radio" name="q8" value="a"> a) Firefox<br>
+                <input type="radio" name="q8" value="b"> b) Safari<br>
+                <input type="radio" name="q8" value="c"> c) Chrome<br>
+                <input type="radio" name="q8" value="d"> d) Edge<br>
+            
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Question 9</legend>
+                <p>Quel acronyme désigne un programme malveillant qui se propage en se dissimulant dans d'autres programmes ?</p>
+                <input type="radio" name="q9" value="a"> a) CPU<br>
+                <input type="radio" name="q9" value="b"> b) RAM<br>
+                <input type="radio" name="q9" value="c"> c) USB<br>
+                <input type="radio" name="q9" value="d"> d) Virus<br>
+            
+        </fieldset>
+        
+        <br>
+        <fieldset>
+            <legend>Question 10</legend>
+                <p>Quelle est la principale fonction d'un logiciel antivirus ?</p>
+                <input type="radio" name="q10" value="a"> a) Accélérer l'ordinateur<br>
+                <input type="radio" name="q10" value="b"> b) Créer des virus<br>
+                <input type="radio" name="q10" value="c"> c) Protéger l'ordinateur contre les logiciels malveillants<br>
+                <input type="radio" name="q10" value="d"> d) Optimiser la connectivité Internet<br>
+            
+        </fieldset>
+        
+        <br>
+        <br>
+        <br>
+        <button class="bouton-personnalise"><a href="./pages/correction1.html">Correction</a></button>
+        <input class="bouton-personnalise" type="button" value="Corriger" onclick="checkAnswers()">
+        <button class="bouton-personnalise" type="reset" id="effacerButton">Effacer</button>
+        
+        
+        
+        
+        
+        <div id="resultDiv"></div>
+         <script>
+        function checkAnswers() {
+            var score = 0;
+            var answers = ["a", "b", "b", "c", "c", "a", "a", "c", "d", "c"];
+
+            for (var i = 1; i <= 10; i++) {
+                var selectedAnswer = document.querySelector('input[name="q' + i + '"]:checked');
+                if (selectedAnswer) {
+                    if (selectedAnswer.value === answers[i - 1]) {
+                        score++;
+                    }
+                }
+            }
+
+            var resultDiv = document.getElementById("resultDiv");
+            resultDiv.innerHTML = "Score : " + score + "/10";
+        }
+             
+    </script>
+
+            
+            

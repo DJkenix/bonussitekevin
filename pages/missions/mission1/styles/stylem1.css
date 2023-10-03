@@ -1,0 +1,54 @@
+h1, h2{
+    text-align: center;
+    font-family: Arial;
+}
+
+
+fieldset{
+    background-color: grey;
+    border:0;
+    border-radius: 10px;
+}
+
+legend{
+    font-weight: bold;
+    background-color: #8e8f91;
+    border-radius: 10px;
+    font-family: arial;
+    font-size: 20px;
+    padding: 5px;
+    border: 20px;
+}
+
+body{
+    background-color: #dadbdd;
+}
+
+.bouton-personnalise {
+            background-color: #607d8b; 
+            color: #fff; 
+            padding: 10px 20px; 
+            font-size: 16px;
+            border: none;
+            cursor: pointer; 
+            border-radius: 5px; 
+            box-shadow: 2px 2px 5px #888; 
+            float: right;
+            margin-right: 20px; 
+            
+        }
+
+.bouton-personnalise:hover {
+        background-color: #0056b3; /* Nouvelle couleur de fond au survol */
+        }
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#resultDiv{
+    color: red;
+    font-family: arial;
+    border: 1px;
+}
