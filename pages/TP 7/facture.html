@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./style/sheet.css">
+    <script src="./js/calcul.js"></script>
+    <meta charset="UTF-8">
+    <title>Facture</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Facture</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Article</th>
+                <th>Prix unitaire</th>
+                <th>Quantité</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="text" value="Article 1"></td>
+                <td><input type="number" value="10.00 €" min="1" id="n1"></td>
+                <td><input type="number" value="2" min="1" id="n2"></td>
+                <td><input class="t1" placeholder="Total 1" type="number" name="t1" id="t1" readonly></td>
+            </tr>
+            <tr>
+                <td><input type="text" value="Article 2"></td>
+                <td><input type="number" value="5.00 €" min="1" id="n3"></td>
+                <td><input type="number" value="3" min="1" id="n4"></td>
+                <td><input class="t1" placeholder="Total 2" type="number" name="t2" id="t2" readonly></td>
+            </tr>
+            <tr>
+                <td><input type="text" value="Article 3"></td>
+                <td><input type="number" value="8.00 €" min="1" id="n5"></td>
+                <td><input type="number" value="1" min="1" id="n6"></td>
+                <td><input class="t1" placeholder="Total 3" type="number" name="t3" id="t3" readonly></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td colspan="1"><button onclick="reset1()">RESET</button></td>
+                <td colspan="1"><button onclick="addition()">Total</button></td>
+                <td><input class="t1" placeholder="Total" type="number" name="t4" id="t4" readonly></td>
+            </tr>
+        </tfoot>
+    </table>
+    
+
+</body>
+</html>
