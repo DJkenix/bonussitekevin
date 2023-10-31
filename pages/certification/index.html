@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./style/stylecertif.css">
+    <title>Mes Certifications</title>
+</head>
+
+<body>
+    <h1>Certifications</h1>
+    <div class="certification" onclick="zoomImage(this)">
+        <img src="./pdf/certication1-1.png" alt="Certificat 1">
+    </div>
+    <div class="certification" onclick="zoomImage(this)">
+        <img src="./pdf/certification2-1.png" alt="Certificat 2">
+    </div>
+    <div id="overlay" onclick="closeOverlay()"></div>
+</body>
+
+<script>
+    function zoomImage(element) {
+    var overlay = document.getElementById("overlay");
+    var image = new Image();
+    image.src = element.querySelector("img").src;
+    overlay.innerHTML = ""; // Efface le contenu précédent de l'overlay
+    overlay.appendChild(image);
+    overlay.style.display = "block";
+}
+
+function closeOverlay() {
+    document.getElementById("overlay").style.display = "none";
+}
+    </script>
+</html>
+
+
