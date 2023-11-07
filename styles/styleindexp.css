@@ -1,0 +1,389 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white; /* Light grey background */
+}
+
+nav > ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav > ul > li {
+    float: left;
+    position: relative;
+}
+
+.submenu {
+    display: none;
+}
+
+nav input[type=checkbox] {
+    display: none;
+}
+
+nav {
+    width: 100%;
+    background-color: #85cdca; /* Modern blue header background */
+}
+
+nav > ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #333; /* Dark text color */
+}
+
+nav > ul > li > a {
+    padding: 20px 30px;
+    font-family: Arial, sans-serif;
+    color: #333; /* Dark text color */
+}
+
+h1 {
+    color: #41B3A3;
+    
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    font-size: 25px;
+}
+
+.header {
+    height: 80px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+ul li a {
+    color: #000; /* Black text color */
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+nav li a:hover{
+    color: #2e86de;
+}
+
+nav li:hover .submenu {
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    z-index: 100000;
+}
+
+.submenu li {
+    border-bottom: 1px solid #ccc;
+}
+
+.submenu li a {
+    padding: 15px 30px;
+    font-size: 13px;
+    color: #333; /* Dark text color */
+    background-color: #fff; /* White background for submenu items */
+    width: 270px;
+}
+
+/* Add hover styles for individual menu items as needed */
+
+.bigheader {
+    background: #7dc2ad; /* Dark blue background */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.textbox {
+    background-color: #40b3a2; /* White background for text box */
+    padding: 60px;
+    border-radius: 20px;
+}
+
+.textbox h2 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333; /* Dark text color */
+}
+
+.textbox p {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #555; /* Slightly darker text color */
+}
+
+.textbox h3 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #2e86de; /* Modern blue text color */
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: darkgrey;
+}
+
+nav> ul{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+nav>li{
+    list-style-type: none;
+}
+
+nav>ul>li{
+    float: left;
+    position: relative;
+}
+
+.submenu{
+    display: none;
+}
+
+nav input[type=checkbox]{
+    display: none;
+}
+
+nav{
+    width: 100%;
+    background-color: aliceblue;
+}
+
+nav>ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav>ul>li>a{
+    padding: 20px 30px;
+    font-family: arial;
+}
+h1{
+    color:#3b556d;
+    text-align: match-parent;
+    font-family: Verdana;
+    font-size: 25;
+    
+}
+.header{
+    background-color: #3b556d;
+    height: 80px;
+    margin:10px;
+    border-radius: 10px;
+}
+
+
+
+
+ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: arial;
+}
+
+nav li:hover .submenu{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 100000;
+}
+
+
+.submenu li{
+    border-bottom: 1px solid #CCC;
+}
+
+.submenu li a{
+    padding: 15px 30px;
+    font-size: 13px;
+    color: #222538;
+    width: 270px;
+}
+
+.menu-html:hover{
+    border-top: 5px solid #2e86de;
+    background-color: RGBa(228,77,38,0.15);
+}
+
+.menu-js:hover{
+    border-top: 5px solid #2e86de;
+    background-color: RGBa(228,77,38,0.15);
+}
+
+.menu-database:hover{
+    border-top: 5px solid #2e86de;
+    background-color: RGBa(228,77,38,0.15);
+}
+
+.menu-php:hover{
+    border-top: 5px solid #2e86de;
+    background-color: RGBa(228,77,38,0.15);
+}
+
+.menu-mission:hover{
+    border-top: 5px solid #2e86de;
+    background-color: RGBa(228,77,38,0.15);
+}
+
+.menu-certif:hover{
+    border-top: 5px solid #2e86de;
+    background-color: RGBa(228,77,38,0.15);
+}
+body {
+    
+    margin: 0;
+    padding: 0;
+    background-color: #def2f1; /* Light grey background */
+}
+
+nav > ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav > ul > li {
+    float: left;
+    position: relative;
+}
+
+.submenu {
+    display: none;
+}
+
+nav input[type=checkbox] {
+    display: none;
+}
+
+nav {
+    width: 100%;
+    background-color: #85cdca; /* Modern blue header background */
+}
+
+nav > ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #333; /* Dark text color */
+}
+
+nav > ul > li > a {
+    padding: 20px 30px;
+    font-family: Arial, sans-serif;
+    color: #333; /* Dark text color */
+}
+
+h1 {
+    color: #41B3A3;
+    
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    font-size: 25px;
+}
+
+.header {
+    background-color: #2e86de; /* Modern blue header background */
+    height: 80px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+ul li a {
+    color: #000; /* Black text color */
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+nav li:hover .submenu {
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    z-index: 100000;
+}
+
+.submenu li {
+    border-bottom: 1px solid #ccc;
+}
+
+.submenu li a {
+    padding: 15px 30px;
+    font-size: 13px;
+    color: #333; /* Dark text color */
+    background-color: #fff; /* White background for submenu items */
+    width: 270px;
+}
+
+/* Add hover styles for individual menu items as needed */
+
+.bigheader {
+    background: #7dc2ad; /* Dark blue background */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.textbox {
+    background-color: #40b3a2; /* White background for text box */
+    padding: 60px;
+    border-radius: 20px;
+}
+
+.textbox h2 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333; /* Dark text color */
+}
+
+.textbox p {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #555; /* Slightly darker text color */
+}
+
+.textbox h3 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #2e86de; /* Modern blue text color */
+    
+}
+
+h1{
+    color: black;
+    font-size: 32px;
+    font-family: Arial;
+}
